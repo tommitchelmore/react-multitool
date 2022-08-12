@@ -1,0 +1,32 @@
+{
+  "name": "react-multitool",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "A swiss army knife for React, including components and hooks.",
+  "author": {
+    "name": "Thomas Mitchelmore",
+    "email": "hello@mitchelmore.dev",
+    "url": "https://mitchelmore.dev"
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+  },
+  "keywords": [
+    "React",
+    "Hooks",
+    "Components",
+    "Multitool",
+    "Typescript"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "npm-run-all": "^4.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}
+
