@@ -1,0 +1,3 @@
+[submodule "react-multitool.wiki"]
+	path = docs
+	url = git@github.com:tommitchelmore/react-multitool.wiki
