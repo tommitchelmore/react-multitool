@@ -6,9 +6,9 @@
     A Swiss Army knife or hooks and utilities for your next React project.
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Documentation</a>
+    <a href="https://github.com/tommitchelmore/react-multitool/wiki">Documentation</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/tommitchelmore/react-multitool/issues">Report Bug</a>
   </p>
 </div>
 
