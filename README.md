@@ -12,6 +12,10 @@
   </p>
 </div>
 
+## 🚧 Under Construction! 🚧
+
+Welcome to React Multitool - a (mainly hooks) utility library for React. It's still very much under construction, but a stable release is on the way. Please **don't** use this in any production code, and be aware that everything is subject to change at any time before v1.0.0. That said, please test it out, report bugs, suggest features or even [contribute](CONTRIBUTING.md) to the project.
+
 ## Installation 🧰
 
 ### npm
@@ -28,7 +32,7 @@ yarn add react-multitool
 
 ## Hooks 🪝
 
-React Multitool provides several hooks that I've found myself writing over and over again.
+React Multitool provides several hooks that I've found myself writing over and over again - click each link to see the documentation for that hook.
 
 [`useAsync`](https://github.com/tommitchelmore/react-multitool/wiki/useAsync) - manages the lifecycle states of an async function
 
