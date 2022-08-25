@@ -6,7 +6,7 @@ type UseAsyncOptions = {
 }
 
 function useAsync<T = any> (callback: () => Promise<T>, { immediate = false, allowConcurrent = true }: UseAsyncOptions) {
-  const [value, setValue] = useState<T>()
+  const [data, setData] = useState<T>()
   const [pending, setPending] = useState(false)
   const [error, setError] = useState<Error>()
 
@@ -15,7 +15,7 @@ function useAsync<T = any> (callback: () => Promise<T>, { immediate = false, all
 
     setPending(true)
     callback()
-      .then(setValue)
+      .then(setData)
       .catch(setError)
       .finally(() => setPending(false))
   }
@@ -24,7 +24,7 @@ function useAsync<T = any> (callback: () => Promise<T>, { immediate = false, all
     execute()
   }
 
-  return { execute, value, pending, error }
+  return { execute, data, pending, error }
 }
 
 export default useAsync
