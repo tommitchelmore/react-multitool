@@ -12,7 +12,7 @@
   </p>
 </div>
 
-## 🚧 Under Construction! 🚧
+## 🚧 Under Construction 🚧
 
 Welcome to React Multitool - a (mainly hooks) utility library for React. It's still very much under construction, but a stable release is on the way. Please **don't** use this in any production code, and be aware that everything is subject to change at any time before v1.0.0. That said, please test it out, report bugs, suggest features or even [contribute](CONTRIBUTING.md) to the project.
 
