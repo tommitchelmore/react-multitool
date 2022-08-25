@@ -30,7 +30,8 @@ npm install react-multitool
 yarn add react-multitool
 ```
 
-## Hooks 🪝
+## Features
+### Hooks 🪝
 
 React Multitool provides several hooks that I've found myself writing over and over again - click each link to see the documentation for that hook.
 
@@ -61,3 +62,19 @@ React Multitool provides several hooks that I've found myself writing over and o
 [`useSet`](https://github.com/tommitchelmore/react-multitool/wiki/useSet) - a wrapper around `useState` implementing a state ADT
 
 [`useStack`](https://github.com/tommitchelmore/react-multitool/wiki/useStack) - a wrapper around `useState` implementing a Stack ADT
+
+### Components 🧱
+
+Coming soon (allegedly)
+
+## Bug Reports/Feature Requests
+
+If you've found something not quite right or something missing, please feel free to open an [issue](https://github.com/tommitchelmore/react-multitool/issues) and I'll respond as soon as I can
+
+## Contributing
+
+If you'd like to contribute to React Multitool you're welcome to open a pull request - please note that for a feature to be accepted you'll need to provide tests and documentation! See [contributing](https://github.com/tommitchelmore/react-multitool/blob/main/CONTRIBUTING.md) for more information.
+
+## Support me
+
+I'm a full-time student, work part time and have several hobbies - React Multitool is provided for free, forever, as a resource that'll hopefully help someone with their next project! If you'd like to support what I do, I'd love for you to share this library around, visit my [website](https://mitchelmore.dev) or let me know of any interesting opportunities!
