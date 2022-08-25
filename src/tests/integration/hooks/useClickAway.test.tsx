@@ -28,7 +28,7 @@ test('callback is run on clicking away from ref', async () => {
   user.click(screen.getByRole('outside'))
 
   // If anyone knows a better solution to this please make a PR :)
-  await new Promise(resolve => setTimeout(resolve, 10))
+  await new Promise(resolve => setTimeout(resolve, 100))
 
   expect((await screen.findByRole('state')).innerHTML).toBe('true')
 })
@@ -41,7 +41,7 @@ test('callback is not run on clicking ref', async () => {
   user.click(screen.getByRole('inside'))
 
   // If anyone knows a better solution to this please make a PR :)
-  await new Promise(resolve => setTimeout(resolve, 10))
+  await new Promise(resolve => setTimeout(resolve, 100))
 
   expect((await screen.findByRole('state')).innerHTML).toBe('false')
 })
@@ -54,7 +54,7 @@ test('callback is not run on clicking ref child', async () => {
   user.click(screen.getByRole('inside-child'))
 
   // If anyone knows a better solution to this please make a PR :)
-  await new Promise(resolve => setTimeout(resolve, 10))
+  await new Promise(resolve => setTimeout(resolve, 100))
 
   expect((await screen.findByRole('state')).innerHTML).toBe('false')
 })
