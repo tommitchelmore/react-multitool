@@ -12,8 +12,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsc",
-    "prepare": "cp package.json README.md ./dist",
-    "prod": "run-s lint test clean build prepare",
+    "prep": "cp package.json README.md ./dist",
+    "prod": "run-s lint test clean build prep",
     "lint": "eslint src/**/*.ts",
     "test": "jest",
     "test:watch": "jest --watchAll",
