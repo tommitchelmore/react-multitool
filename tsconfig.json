@@ -10,5 +10,5 @@
         "moduleResolution": "node"
     },
     "include": ["src"],
-    "exclude": ["./src/stories"]
+    "exclude": ["./src/stories", "./src/tests"]
 }
