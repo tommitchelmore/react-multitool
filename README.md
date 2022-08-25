@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h3 align="center">React Multitool 🔧</h3>
+  <h3 align="center">React Multitool</h3>
 
   <p align="center">
     A Swiss Army knife or hooks and utilities for your next React project.
